@@ -195,7 +195,7 @@ class SubscriptionListPage extends StatelessWidget {
                                       ),
                                     );
                                   },
-                                  errorBuilder: (_, __, ___) {
+                                  errorBuilder: (_, _, _) {
                                     return Center(
                                       child: Icon(
                                         Icons.image_not_supported,
