@@ -13,8 +13,8 @@ void main() {
     group('login', () {
       test('deve retornar um UserModel quando as credenciais são válidas',
           () async {
-        const email = 'admin@example.com';
-        const password = 'password123';
+        const email = 'teste@empiricus.com.br';
+        const password = '123456';
 
         final result = await datasource.login(email, password);
 
